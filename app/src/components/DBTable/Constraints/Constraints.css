@@ -1,0 +1,18 @@
+.DBSelect::-webkit-scrollbar{
+    display: none;
+}
+.DBSelect{
+    scrollbar-width: none;
+}
+.constraint0{
+    background-color: #cf4646;
+}
+.constraint1{
+    background-color: #2b3181;
+}
+.constraint2{
+    background-color: #288a71;
+}
+.constraint3{
+    background-color: #cf8446;
+}

@@ -1,0 +1,18 @@
+:root{
+    --numeric-text-color: #EFC900;
+    --character-text-color: #F17400;
+    --date-text-color: #00D0AB;
+}
+.DBSelected {
+
+}
+
+.character{
+    color: var(--character-text-color);
+}
+.numeric{
+    color: var(--numeric-text-color);
+}
+.date{
+    color: var(--date-text-color);
+}

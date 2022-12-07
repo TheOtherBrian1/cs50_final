@@ -1,0 +1,29 @@
+.Editor{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 50px auto;
+    grid-template-columns: 240px auto 50px;
+
+    grid-template-areas: 
+        "db_header db_header db_header"
+        "left_nav canvas right_nav" 
+        "left_nav canvas right_nav"
+        "left_nav canvas right_nav"
+}
+
+.grid-header{
+    grid-area: db_header;
+    background-color: blue;
+}
+
+.grid-canvas{
+    grid-area: canvas;
+    background-color: #1E1F22;
+}
+
+.grid-left-nav{
+    grid-area: left_nav;
+    /* background-color: #1c1c1c; */
+    background-color: #000000;
+}

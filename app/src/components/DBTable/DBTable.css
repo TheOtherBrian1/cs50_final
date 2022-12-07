@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Work+Sans:wght@600&display=swap');
+:root{
+    --container-background-color: #1E1F22;
+    --input-width: 5em;
+    --standard-font: 'IBM Plex Mono', monospace;
+    --standard-font-size: 14px;
+    --standard-font-color: white;
+    --standard-padding: 11px;
+    
+    --title-font: 'Work Sans', sans-serif;
+    --title-font-size: 16px;
+    --title-background-color: rgba(255,255,255, .2);
+    
+    --null-text-color: rgba(255,255,255,.6);
+    --numeric-text-color: #EFC900;
+    --character-text-color: #F17400;
+    --date-text-color: #00D0AB;
+}
+
+.DBTable{
+    background: black;
+    /* background-color: var(--container-background-color); */
+}
+.DBHeader{
+    background-color: var(--title-background-color);
+}
+.DBTitle{
+    color: var(--standard-font-color);
+    padding: 0 var(--standard-padding);
+    font-family: var(--title-font);
+    font-size: var(--title-font-size);
+}
+.DBTitle::placeholder { 
+    color: white;
+    opacity: .6; /* Firefox */
+  }
+
+.DBCategories th{
+    font-size: var(--standard-font-size);
+    color: var(--standard-font-color);
+    font-weight: 400;
+    white-space: nowrap;
+    padding: 0 var(--standard-padding);
+    margin: 0 2px;
+}
+
+.DBInput{
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    height: 26px;
+    text-overflow: ellipsis;
+    width: var(--input-width);
+    background-color: #1E1F22;
+    color: var(--standard-font-color);
+}
+.DBInput:focus{
+    z-index: 10;
+    width: 340px;
+    left: var(--standard-padding);
+    border:blue solid 1px !important;
+    border-radius: 5px;
+    padding: 0 5px;
+    border: 0;
+}
+
+
+tr, th{
+    height: 40px;
+    text-align: center;
+}
+
+.DBValues{
+
+}
+
+.input:focus{
+    border:0;
+    outline:none;
+}
