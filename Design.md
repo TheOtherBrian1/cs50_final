@@ -97,6 +97,25 @@ A browser based database modeler
     </h5>
   </li>
 </ul>
+
+<p>
+  Eventually, I came across <a href = "https://reactflow.dev/showcase/">React-Flow</a>. I knew about React, but I had been extremely rusty and have never built any projects with it. However, the showcase from React-Flow proved that it was exactly what I was looking for. It was well maintained an documented, and used to create data models with adjacent use cases to my own. Unfortunately, this meant an unbearable sprint to learn on the needed technologies: React and Recoil. Confessionally, I had wanted to learn React for a long time, so I saw this as a way to justify something I had been putting off for a long time. 
+</p>
+<p>
+  Starting with a <a href = "https://www.youtube.com/watch?v=4UZrsTqkcW4&ab_channel=freeCodeCamp.org">Freecode camp video</a> at 2x speed, and a shameful amount of note taking, I felt somewhat comfortable to approach the problem. In the end, I probably spent 65+ hours on this project (this might be an underestimate). However, by leveraging Medium articles, Reddit, StackOverflow, YouTube, and the hundreds of online resource available, I was able to confront the issue. There were a lot of needless roadblocks. I spent time trying to learn IndexDB before realizing that it was a lost cause. I spent a few hours looking over Redux after realizing my code became unreasonably convoluted, but I ended dropping my research to learn the Facebook backed Recoil State Management software. 
+</p>
+<p>
+  I actually scrapped my code twice while working on it. In hindsight, it might have been wiser to stick with Jinja. The final code structure I had was heavily based on the recommendation of <a href = "https://blog.webdevsimplified.com/2022-07/react-folder-structure/">Web Dev Simplified</a>, a fairly well known software influencer. 
+</p>
+<img src = "markdown_assets/folder_structure.png" />
+<p>
+  This is the final iteration of my code. I will remove the IndexDB folder, as it's mostly convoluted code that was leftover from before I understood state management. 
+</p>
+<p>
+  After this (regretful) mad sprint, I was able to achieve 2/5s of my ambitions. I can move tables around on an infinite canvas. They are bit buggy. Menus don't always close as expected and the navigation features are only semi-functional, but I could use it to model a database and it looked better than many of the alternatives out there. I'm certain if I were to continue to work on it, I could make it that it auto creates SQL based on the diagram. It could become a robust solution for the problem I confronted early on in my project: database design. Even if it's not what I wanted it to be, I'm proud of it.
+</p>
+<img src = "markdown_assets/visual_of_finished_db.png">
+
 <hr />
 <h3>Technologies used</h3>
 <ul>
