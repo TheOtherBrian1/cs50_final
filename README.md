@@ -6,6 +6,7 @@ A browser based database modeler
 <h2>What the code does</h2>
 <p>
     It's a browser based application that allows users to build database models, so they can see how their data is structured before they invest anytime in building their apps. <a href = "https://stupendous-sundae-02f5cd.netlify.app">DEMO</a>.
+    <strong><a href= "https://www.loom.com/share/8810842a5e94408ba8cfd2f18c955210">Video</a></strong>
 </p>
 <h2>How does the code work?</h2>
 <p>
