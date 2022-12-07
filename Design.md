@@ -31,7 +31,72 @@ A browser based database modeler
 </p>
 <img src = "markdown_assets/database_diagram.png" />
 <p>
-  Once I had a design figured out. I decided to try to implement a basic version in Jinja and Flask, but I found the process overwhelming.
+  Once I had a design figured out. I decided to try to implement a basic version in Jinja and Flask, but I found the process overwhelming. 
+</p>
+  <img src = "markdown_assets/Jinja_editor.png" />
+<p>
+  I had tried to create a complete Editor, but embedding every single component inside each other became unweildly. Although it meant abandoning my progress, I needed a better way.
+</p>
+<p>
+  I spent hours looking through articles and tutorials, hoping that something would offer insight.
+</p>
+<h3>Articles I checked
+<ul>
+
+  <li>
+    <h5>
+      <a href = "https://medium.com/@tom.humph/creating-an-infinite-whiteboard-97527e886712">
+        Creating an infinite whiteboard
+      </a>
+    </h5>
+  </li>
+
+  <li>
+    <h5>
+      <a href = "https://www.youtube.com/watch?v=7PYvx8u_9Sk">
+        Canvas Drag & Drop Objects Tutorial | HTML5 Canvas JavaScript Tutorial [#10]
+      </a>
+    </h5>
+  </li>
+
+  <li>
+    <h5>
+      <a href = "https://www.youtube.com/watch?v=gm1QtePAYTM&ab_channel=TraversyMedia">
+        HTML5 Canvas API Crash Course
+      </a>
+    </h5>
+  </li>
+
+  <li>
+    <h5>
+      <a href = "https://www.youtube.com/watch?v=Yvz_axxWG4Y&t=183s&ab_channel=Frankslaboratory">
+        HTML5 Canvas CRASH COURSE for Beginners
+      </a>
+    </h5>
+  </li>
+  
+  <li>
+    <h5>
+      <a href = "https://github.com/dilidili/react-canvas-infinite" >
+        react-canvas-infinite
+      </a>
+    </h5>
+  </li>
+
+  <li>
+    <h5>
+      <a href = "https://github.com/mathieuguyot/oura-node-editor" >
+        oura-node-editor
+      </a>
+    </h5>
+  </li>
+  
+  <li>
+    <h5>
+      ETC.
+    </h5>
+  </li>
+</ul>
 <hr />
 <h3>Technologies used</h3>
 <ul>
