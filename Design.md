@@ -151,16 +151,3 @@ A browser based database modeler
       HTML Canvas: Canvas is very hard to use, which is why I ultimately abandoned all my efforts to use it. Nonetheless, I spent a large porition of my time trying to leverage it to make movable database nodes.
 </ul>
 <hr />
-<h3>How to use the code</h3>
-<ul>
-    <li>
-        After Cloning, go to Figma Design and right click on the white space. This will bring up the options menu.
-    </li>
-    <li>
-        Go to Plugins -> Development -> Deploy - Import Plugin from Manifest
-        <img src = "ReadMe-assets/plugin-instruction.png">
-    </li>
-    <li>
-      Select the manifest file from the cloned repository.
-    </li>
-</ul>
