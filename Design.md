@@ -115,48 +115,43 @@ A browser based database modeler
   After this (regretful) mad sprint, I was able to achieve 2/5s of my ambitions. I can move tables around on an infinite canvas. They are bit buggy. Menus don't always close as expected and the navigation features are only semi-functional, but I could use it to model a database and it looked better than many of the alternatives out there. I'm certain if I were to continue to work on it, I could make it that it auto creates SQL based on the diagram. It could become a robust solution for the problem I confronted early on in my project: database design. Even if it's not what I wanted it to be, I'm proud of it.
 </p>
 <img src = "markdown_assets/visual_of_finished_db.png">
-
+<p>
+  It's deployed simply using a bare bones Flask app. In the future, I plan on implementing a full on login page and user accounts. Still, I'm impressed by how much I was able to do, especially knowing my own limitations from the start.
 <hr />
 <h3>Technologies used</h3>
 <ul>
     <li>
-        React-Related
-        <ul>
-          <li>
-            React
-          </li>
-          <li>
-            Material UI
-          </li>
-          <li>
-            Custom React Hooks
-          </li>
-          <li>
-            Redux
-          </li>
-        </ul>
+        React: front-end web framework
     </li>
     <li>
-      WebPack
+      JavaScript: programming language for web development
     </li>
     <li>
-      TypeScript
+      Visual Studio Code: code editor
     </li>
     <li>
-      SQL
+      React-Flow: front-end library for creating drag and drop nodes
     </li>
     <li>
-      Figma Design
+      Recoil: state management library
     </li>
     <li>
-      Figma API
+      postgreSQL/MySQL: I used their documentation to help define parameters for the database modeler
     </li>
     <li>
-      Shared Web-Workers
+      Flask/Jinja: I used them to  deploy the website locally and make a partially finished login page, though I have not included the latter because it still needs too much work.
     </li>
+    <li>
+      IndexDB: an in browser database modeler. I never ended up using it, but I spent a considerable amount of time researching it and attempting to work with it before moving on.
+    </li>
+    <li>
+      Redux: like IndexDB, I put in considerable amount of time to understand the library, but ultimately, I found it too complex and decided to learn the much simpler Recoil instead.
+    </li>
+    <li>
+      HTML Canvas: Canvas is very hard to use, which is why I ultimately abandoned all my efforts to use it. Nonetheless, I spent a large porition of my time trying to leverage it to make movable database nodes.
 </ul>
 <hr />
-<h3>How to use</h3>
+<h3>How to use the code</h3>
 <ul>
     <li>
         After Cloning, go to Figma Design and right click on the white space. This will bring up the options menu.
