@@ -40,7 +40,7 @@ A browser based database modeler
 <p>
   I spent hours looking through articles and tutorials, hoping that something would offer insight.
 </p>
-<h3>Articles I checked
+<h3>Articles I checked</h3>
 <ul>
 
   <li>
